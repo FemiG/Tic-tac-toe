@@ -1,4 +1,4 @@
 [build]
-  command = "npm run build"
-  publish="./src/App.js/build"
+  command = "npm run App.js"
+  publish="App.js/build"
   base = "./src/App.js"
