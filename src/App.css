@@ -67,7 +67,11 @@
 
 body{
   text-align: center;
-  background-color: black;
+  background: rgb(40,1,56);
+background: -moz-linear-gradient(0deg, rgba(40,1,56,1) 0%, rgba(99,42,122,1) 50%, rgba(40,1,56,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(40,1,56,1) 0%, rgba(99,42,122,1) 50%, rgba(40,1,56,1) 100%);
+background: linear-gradient(0deg, rgba(40,1,56,1) 0%, rgba(99,42,122,1) 50%, rgba(40,1,56,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#280138",endColorstr="#280138",GradientType=1);
   color: white;
 }
 
